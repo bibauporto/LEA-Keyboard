@@ -1,0 +1,410 @@
+{
+	"vim.autoindent": true,
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": ["b"],
+			"after": ["h"]
+		},
+		{
+			"before": ["B"],
+			"after": ["0"]
+		},
+		{
+			"before": ["n"],
+			"after": ["j"]
+		},
+		{
+			"before": ["N"],
+			"after": [")"]
+		},
+		{
+			"before": ["e"],
+			"after": ["k"]
+		},
+		{
+			"before": ["E"],
+			"after": ["("]
+		},
+		{
+			"before": ["i"],
+			"after": ["l"]
+		},
+		{
+			"before": ["I"],
+			"after": ["$"]
+		},
+		{
+			"before": ["o"],
+			"after": ["e"]
+		},
+		{
+			"before": ["O"],
+			"after": ["E"]
+		},
+		{
+			"before": ["l"],
+			"after": ["i"]
+		},
+		{
+			"before": ["L"],
+			"after": ["I"]
+		},
+		{
+			"before": ["h"],
+			"after": ["n"]
+		},
+		{
+			"before": ["H"],
+			"after": ["N"]
+		},
+		{
+			"before": ["j"],
+			"after": ["o"]
+		},
+		{
+			"before": ["J"],
+			"after": ["O"]
+		},
+		{
+			"before": ["Q"],
+			"after": ["q"]
+		},
+		{
+			"before": ["q"],
+			"after": ["@"]
+		},
+		{
+			"before": ["k"],
+			"after": ["m"]
+		},
+		{
+			"before": ["K"],
+			"after": ["M"]
+		},
+		{
+			"before": ["m"],
+			"after": ["b"]
+		},
+		{
+			"before": ["M"],
+			"after": ["B"]
+		},
+		{
+			"before": ["Ç"],
+			"after": ["*"]
+		},
+		{
+			"before": ["ç"],
+			"after": ["/"]
+		},
+		{
+			"before": [","],
+			"after": [";"]
+		},
+		{
+			"before": [";"],
+			"after": [","]
+		},
+		{
+			"before": ["U"],
+			"after": ["<C-R>"]
+		},
+		// deletes to empty registry
+		{
+			"before": ["d"],
+			"after": ["\"", "_", "d"]
+		},
+		//
+		//makes - do nothiing
+		{
+			"before": ["-"],
+			"after": [""]
+		},
+		//
+		{
+			"before": ["<leader>", "q"],
+			"commands": ["workbench.action.openChat"]
+		},
+		{
+			"before": ["<leader>", "T"],
+			"commands": ["workbench.action.createTerminalEditor"]
+		},
+		{
+			"before": ["<leader>", "t"],
+			"commands": ["workbench.action.terminal.moveToEditor"]
+		},
+		{
+			"before": ["<leader>", "s"],
+			"commands": ["workbench.action.splitEditorRight"]
+		},
+		{
+			"before": ["<leader>", "S"],
+			"commands": ["workbench.action.splitEditorDown"]
+		},
+		{
+			"before": ["<leader>", "c"],
+			"commands": ["toggleFindCaseSensitive"]
+		},
+		{
+			"before": ["<leader>", "C"],
+			"commands": ["toggleSearchEditorWholeWord"]
+		},
+		{
+			"before": ["<leader>", "k"],
+			"commands": ["actions.find"]
+		},
+		{
+			"before": ["<leader>", "l"],
+			"commands": ["turboConsoleLog.displayLogMessage"]
+		},
+		{
+			"before": ["<leader>", "L"],
+			"commands": ["turboConsoleLog.deleteAllLogMessages"]
+		},
+		{
+			"before": ["<leader>", "<leader>"],
+			"commands": ["workbench.action.quickOpen"]
+		},
+		{
+			"before": ["<leader>", "a"],
+			"commands": ["workbench.action.gotoSymbol"]
+		},
+		{
+			"before": ["<leader>", "d"],
+			"commands": ["editor.action.commentLine"]
+		},
+		{
+			"before": ["<leader>", "v"],
+			"commands": ["editor.action.showHover"]
+		},
+		{
+			"before": ["<leader>", "V"],
+			"commands": ["workbench.action.editorDictation.start"]
+		},
+		{
+			"before": ["<leader>", "f"],
+			"commands": ["workbench.action.focusLeftGroup"]
+		},
+		{
+			"before": ["<leader>", "i"],
+			"commands": ["workbench.action.focusRightGroup"]
+		},
+		{
+			"before": ["<leader>", "e"],
+			"commands": ["workbench.action.previousEditor"]
+		},
+		{
+			"before": ["<leader>", "n"],
+			"commands": ["workbench.action.nextEditor"]
+		},
+		{
+			"before": ["<leader>", "o"],
+			"commands": ["redo"]
+		},
+		{
+			"before": ["<leader>", "p"],
+			"commands": ["editor.action.marker.next"]
+		}
+	],
+	"vim.visualModeKeyBindingsNonRecursive": [
+		{
+			"before": ["b"],
+			"after": ["h"]
+		},
+		{
+			"before": ["B"],
+			"after": ["0"]
+		},
+		{
+			"before": ["n"],
+			"after": ["j"]
+		},
+		{
+			"before": ["N"],
+			"after": [")"]
+		},
+		{
+			"before": ["e"],
+			"after": ["k"]
+		},
+		{
+			"before": ["E"],
+			"after": ["("]
+		},
+		{
+			"before": ["i"],
+			"after": ["l"]
+		},
+		{
+			"before": ["I"],
+			"after": ["$"]
+		},
+		{
+			"before": ["o"],
+			"after": ["e"]
+		},
+		{
+			"before": ["O"],
+			"after": ["E"]
+		},
+		{
+			"before": ["H"],
+			"after": ["N"]
+		},
+		{
+			"before": ["h"],
+			"after": ["n"]
+		},
+		{
+			"before": ["j"],
+			"after": ["o"]
+		},
+		{
+			"before": ["J"],
+			"after": ["O"]
+		},
+		{
+			"before": ["l"],
+			"after": ["i"]
+		},
+		{
+			"before": ["L"],
+			"after": ["I"]
+		},
+		{
+			"before": ["Q"],
+			"after": ["q"]
+		},
+		{
+			"before": ["q"],
+			"after": ["@"]
+		},
+		{
+			"before": ["k"],
+			"after": ["m"]
+		},
+		{
+			"before": ["K"],
+			"after": ["M"]
+		},
+		{
+			"before": ["m"],
+			"after": ["b"]
+		},
+		{
+			"before": ["M"],
+			"after": ["B"]
+		},
+		{
+			"before": ["ç"],
+			"after": ["/"]
+		},
+		{
+			"before": ["Ç"],
+			"after": ["*"]
+		},
+		{
+			"before": [","],
+			"after": [";"]
+		},
+		{
+			"before": [";"],
+			"after": [","]
+		},
+		{
+			"before": ["'"],
+			"after": ["/"]
+		},
+		{
+			"before": ["|"],
+			"after": ["*"]
+		},
+		// deletes to empty registry
+		{
+			"before": ["d"],
+			"after": ["\"", "_", "d"]
+		},
+		//
+		//makes - do nothiing
+		{
+			"before": ["-"],
+			"after": [""]
+		},
+		//
+		{
+			"before": ["h"],
+			"commands": ["editor.action.addSelectionToNextFindMatch"]
+		},
+		{
+			"before": ["H"],
+			"commands": ["editor.action.addSelectionToPreviousFindMatch"]
+		},
+		{
+			"before": ["m"],
+			"after": ["b"]
+		},
+		{
+			"before": ["M"],
+			"after": ["B"]
+		},
+		// Jumps to the next created marker, but selects
+		{
+			"before": ["<leader>", "k"],
+			"after": ["]", "`"]
+		},
+		// Jumps to the previous created marker, but selects
+		{
+			"before": ["<leader>", "K"],
+			"after": ["[", "`"]
+		},
+		{
+			"before": ["<leader>", "<leader>"],
+			"commands": ["editor.action.selectHighlights"]
+		},
+		//turbo console log
+		{
+			"before": ["<leader>", "l"],
+			"commands": ["turboConsoleLog.displayLogMessage"]
+		},
+		{
+			"before": ["<leader>", "L"],
+			"commands": ["turboConsoleLog.deleteAllLogMessages"]
+		},
+		{
+			"before": ["<leader>", "d"],
+			"commands": ["editor.action.commentLine"]
+		},
+		{
+			"before": ["<leader>", "a"],
+			"commands": ["workbench.action.gotoSymbol"]
+		},
+		{
+			"before": ["<leader>", "<leader>"],
+			"commands": [":%y"]
+		},
+		{
+			"before": ["<leader>", "q"],
+			"commands": ["workbench.action.openChat"]
+		}
+		//
+	],
+	"vim.handleKeys": {
+		"<C-c>": false,
+		"<C-v>": false,
+		"<C-p>": false,
+		"<C-b>": false,
+		"<C-j>": false,
+		"<C-g>": false,
+		"<C-d>": false,
+		"<C-l>": false,
+		"<C-n>": false,
+		"<C-w>": false,
+		"<C-f>": false,
+		"<C-k>": false,
+		"<C-i>": false,
+		"<C-x>": false,
+		"<C-a>": false
+	},
+	"vim.leader": " ",
+	"vim.useSystemClipboard": true
+}
