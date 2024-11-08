@@ -1,43 +1,27 @@
 # LEA Keyboard Layout
 
-The **LEA Keyboard Layout** is a modified keyboard layout inspired by **Oxey Strdy** and optimized for **Vim users** on **EU ISO keyboards**. It brings ergonomic benefits, efficiency, and ease of use for those who work in both English and Portuguese.
+The **LEA Keyboard Layout** is a modified keyboard layout inspired by **Oxey Strdy** and optimized for **Vim users** on **EU ISO keyboards**. It provides ergonomic benefits, increased efficiency, and ease of use for those who work in both English and Portuguese.
 
 ## Table of Contents
 
 - [Background](#background)
 - [Features](#features)
 - [Key Layout](#key-layout)
-- [Installation](#installation)
-- [Usage Tips](#usage-tips)
-- [Contributing](#contributing)
-- [License](#license)
+- [Vim Key Modifications](#vim-key-modifications)
 
 ## Background
 
 The LEA Keyboard Layout is the result of experimenting with various layouts, including:
 
-- **Colemak**: A significant improvement over QWERTY, but it sparked the search for an even more efficient layout.
-- **Colemak-DH** (and other Colemak variants): Offered slight improvements, but some key placements like **F**, **Y**, and **A** could be further optimized.
+- **Colemak**: A significant improvement over QWERTY, but it sparked a search for an even more efficient layout.
+- **Colemak-DH** (and other Colemak variants): Offered slight improvements, but some key placements, like **F**, **Y**, and **A**, could be further optimized.
 - **Canary**: A fast and comfortable layout with **T** in a strong position and **A** on the right hand. However, **Y** and **V** placements weren’t ideal for English and Portuguese typing needs.
-- **STRDY**: Highly recommended for English typing, but **T** on the ring finger was challenging, leading to experimentation with swaps like **T** and **R**.
-
-After extensive testing, the **LEA Keyboard Layout** emerged as a customized and optimized version of STRDY, focusing on:
-
-- Better finger balance and rolls.
-- Positioning high-frequency keys to minimize movement.
-- Improved comfort for common letter combinations in English and Portuguese.
-
-## Features
-
-- **Adapted for Vim**: Designed with Vim keybindings in mind, using a strategic swapping methodology for efficient navigation.
-- **EU ISO Keyboard Compatibility**: Tailored for the standard EU ISO key layout.
-- **Efficiency-focused**: Inspired by Oxey Strdy’s efficient key placement to minimize finger travel.
-- **Ergonomic**: Reduces strain on hands and fingers by clustering high-frequency keys closer to the home row.
+- **STRDY**: A highly efficient layout that could be the standard for English typing. However, **T** on the ring finger takes some adjustment.
 
 ## Modified Strdy - LEA Keyboard
 
 ### Key Modifications
-- **M**: Moved to the right side. This slightly increases the load on the right hand but improves typing rolls, stabilizes the left hand, and facilitates combinations like "MAKE" (where **M** and **K** are close).
+- **M**: Moved to the right side. While this slightly increases the load on the right hand, it improves typing rolls, stabilizes the left hand, and facilitates combinations like "MAKE" (where **M** and **K** are close).
 - **Q**: Moved back to the left hand. Common in Portuguese, **Q** also benefits English typing with this placement.
 - **V**: Positioned for easy access and improved comfort.
 - **J**: Optionally placed to the left of **F** to accommodate **Ç** for Portuguese typists (optional for English-only users).
@@ -55,13 +39,27 @@ Here are images of the LEA Keyboard Layout in different modes:
 - **AltGr** mode:
   ![LEA Keyboard Layout - AltGr](./docs/images/altgr.png)
 
-## Installation
+## Vim Key Modifications
 
-Follow these instructions to set up the LEA Keyboard Layout on your system.
+### Navigation Keys
+- **B**: Left movement
+- **N**: Down movement
+- **E**: Up movement
+- **I**: Right movement
 
-### For Linux
+### Other Key Remappings
+- **L**: "Let" replaces **I** (insert mode)
+- **K**: "Bookmark" replaces **M** (mark)
+- **J**: Replaces **O**
+- **M**: "Minus" replaces **B**
+- **O**: Replaces **E**
+- **H**: "Hop" replaces **N**
 
-1. Clone this repository.
-2. Copy the layout file to the X11 configuration directory:
-   ```bash
-   sudo cp lea_keyboard /usr/share/X11/xkb/symbols/
+## Positive Aspects of the Layout
+- **V** for visual mode is in an optimal position.
+- **C** and **P** are conveniently located next to each other.
+- **D** is in an excellent position.
+- **A** is in the perfect position for easy access.
+- **,** (comma) is ideally placed.
+- **S** and **T** are on the home row and in great positions.
+- **O** is positioned on the right middle finger for easy reach.
