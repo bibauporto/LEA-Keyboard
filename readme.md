@@ -57,7 +57,7 @@ Here are images of the LEA Keyboard Layout in different modes:
 
 ## Positive Aspects of the Layout
 - **V** for visual mode is in an optimal position.
-- **C** and **P** are conveniently located next to each other.
+- **Y** and **P** are conveniently located next to each other.
 - **D** is in an excellent position.
 - **A** is in the perfect position for easy access.
 - **,** (comma) is ideally placed.
