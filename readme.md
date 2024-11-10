@@ -20,7 +20,7 @@ The LEA Keyboard Layout is the result of experimenting with various layouts, inc
 
 
 ### Key Modifications
-- **M**: Moved to the right side. While this slightly increases the load and redirects on the right hand, it improves typing rolls, stabilizes the left hand, and facilitates combinations like "MAKE" (where **M** and **K** are close).
+- **M**: Moved to the right side. While this slightly increases the load and redirects on the right hand, it improves typing rolls, stabilizes the left hand, and facilitates combinations like "MAKE" (where **M** and **K** are close). Decreases left ring finger workload.
 - **Q**: Moved back to the left hand.
 - **V**: Better position.
 - **J**: Placed to the left of **F**.
