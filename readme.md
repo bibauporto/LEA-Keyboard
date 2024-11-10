@@ -1,6 +1,6 @@
 # LEA Keyboard Layout
 
-The **LEA Keyboard Layout** is a modified keyboard layout inspired by **Oxey Strdy** and optimized for **Vim users** on **EU ISO keyboards**. It provides ergonomic benefits, increased efficiency, and ease of use for those who work in both English and Portuguese.
+The **LEA Keyboard Layout** is a modified keyboard layout inspired by **Oxey Strdy** and optimized for **Vim users** on **EU ISO keyboards**. 
 
 ## Table of Contents
 
